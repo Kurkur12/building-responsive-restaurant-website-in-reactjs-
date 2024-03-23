@@ -1,0 +1,56 @@
+/* Navbar.css */
+
+.custom-navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background-color: #ffffff; /* Warna latar belakang navbar */
+    border-bottom: 1px solid #e5e5e5; /* Garis pemisah bawah navbar */
+    padding: 10px 0; /* Padding atas dan bawah navbar */
+  }
+  
+  .custom-navbar a {
+    color: #333333; /* Warna teks link */
+    margin-right: 15px; /* Jarak antar link di navbar */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .custom-navbar a:hover {
+    color: #007bff; /* Warna teks link saat dihover */
+  }
+  
+  /* Membuat efek transisi ketika navbar di-scroll */
+  .custom-navbar-scroll {
+    background-color: #ffffff;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Gaya untuk brand/logo di navbar */
+  .custom-navbar-brand {
+    font-size: 1.5rem;
+    margin-right: 20px;
+  }
+  
+  /* Membuat efek transisi untuk brand/logo ketika navbar di-scroll */
+  .custom-navbar-brand-scroll {
+    color: #333333;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  /* Gaya untuk tombol toggle di navbar (hanya untuk navbar responsif) */
+  .custom-navbar-toggler-icon {
+    border-color: #333333;
+  }
+  
+  .custom-navbar-toggler-icon:hover {
+    background-color: #333333;
+  }
+  
+  /* Membuat efek transisi untuk tombol toggle ketika navbar di-scroll */
+  .custom-navbar-toggler-icon-scroll {
+    border-color: #333333;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
